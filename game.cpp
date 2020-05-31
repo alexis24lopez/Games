@@ -1069,6 +1069,7 @@ bool score(int new_score, std::string load_name) // Keep track of best five scor
 					top_five[0] = load_name;
 					
 					high_score = true; // We have a new high score and it will show in green.
+					break;
 				}
 			}
 			
