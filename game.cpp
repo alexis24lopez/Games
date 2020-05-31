@@ -1043,6 +1043,7 @@ bool score(int new_score, std::string load_name) // Keep track of best five scor
 				top_five[2 * i + 2] = load_name;
 				top_five[2 * i + 3] = to_string(new_score);
 				high_score = true;
+				break;
 				
 			}
 			if (i == 0){ //Right here if true means the second on the list is the new number one.
@@ -1069,7 +1070,6 @@ bool score(int new_score, std::string load_name) // Keep track of best five scor
 					top_five[0] = load_name;
 					
 					high_score = true; // We have a new high score and it will show in green.
-					break;
 				}
 			}
 			
