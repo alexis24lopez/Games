@@ -4,7 +4,7 @@
 * Special Thanks to: https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/
 * One guy in cplusplus for their contributions of the cpu_medium algorithm.
 * compile: $ g++ game.cpp
-*		   $ a.exe (if compiing on windows)
+*		   $ a.exe (if compiling on windows)
 *		   $ /a.out (if compiling on Linux)
 * Updated: 05/29/2020
 * Version: 3.0
